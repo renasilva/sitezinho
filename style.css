@@ -1,0 +1,67 @@
+* {
+    background-color: blueviolet;
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+span {
+    font-size: 35px;
+}
+
+button {
+    width: 115px;
+    height: 45px;
+    border: none;
+    background: skyblue;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+button:hover {
+    transform: translateY(-8px);
+}
+
+#titulo {
+    font-size: 60px;
+}
+
+.inicio {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    float: left;
+}
+
+.logo-2 {
+    float: right;
+}
+
+.container {
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.conteudo {
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
